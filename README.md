@@ -14,14 +14,12 @@ Instances: 12,330
 Features: 18 numerical and categorical behavior-based variables (e.g., pages visited, duration, bounce rates, etc.)
 Target Variable: Revenue (True if a purchase occurred, else False)
 
-
 🧼 Data Preprocessing
 
 Handled missing values
 Converted categorical features using Label Encoding
 Applied feature scaling using StandardScaler
 Addressed class imbalance using SMOTE
-
 
 🧠 Models Used
 
@@ -33,23 +31,21 @@ Random Forest Classifier
 Support Vector Machine (SVM)
 K-Nearest Neighbors (KNN)
 
-
 🔍 Hyperparameter Tuning
 
 Applied GridSearchCV to tune the top-performing models
 Models evaluated using Accuracy, Precision, Recall, and F1-Score
-
 
 📊 Results
 
 ✅ Final Selected Model Performance (Test Data):
 Accuracy: 84.06%
 F1-Score for Purchase Class (1): 0.26
+
 📦 Model Performance on Unseen Data:
 Accuracy: 74.48%
 F1-Score: 0.5091
 These results highlight improved generalization and better performance in identifying minority class (purchase intent) on unseen data.
-
 
 🧩 Conclusion
 
